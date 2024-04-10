@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  frontend:
+    build: ./caterweb
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+  backend:
+    build: ./cater-backend
+    ports:
+      - "5001:5001"

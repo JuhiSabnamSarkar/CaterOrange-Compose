@@ -1,0 +1,65 @@
+.cart-child1{
+    height: 16rem;
+    background-image: url(https://wallpapercave.com/wp/wp2800736.jpg);
+    background-attachment: fixed; /* Background image will be fixed */
+    background-size: cover; /* Cover the entire div with the background image */
+    color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.cart-child2{
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    background-color: rgb(244, 244, 246);
+    padding-left: 3rem;
+}
+.cart-child3{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    padding: 3rem;
+}
+.payment-div{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 20rem;
+    padding: 2rem;
+}
+.payment-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment-div-child-1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.payment-btn-1{
+    border: none;
+    background-color: red;
+    height: 40px;
+    color: white;
+    width: 15rem;
+    font-weight: bold;
+}
+.payment-div-child-2{
+    text-align: center;
+}
+.payment-btn-2{
+    border: none;
+    background-color: aquamarine;
+    height: 45px;
+    color: red;
+    width: 10rem;
+    font-weight: bold;
+    font-size: 13px;
+}
